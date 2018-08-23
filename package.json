@@ -1,0 +1,27 @@
+{
+  "name": "webdriver-project",
+  "version": "1.0.0",
+  "description": "all packages and configs for easy run webdriver scripts",
+  "main": "index.js",
+  "scripts": {
+    "prepare": "npm i -g chromedriver && npm i -g geckodriver"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fedevitch/webdriver-project.git"
+  },
+  "keywords": [
+    "selenium",
+    "webdriver"
+  ],
+  "author": "Lyubomyr Fedevitch (lyubomyr.fedevitch@gmail.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fedevitch/webdriver-project/issues"
+  },
+  "homepage": "https://github.com/fedevitch/webdriver-project#readme",
+  "dependencies": {
+    "chromedriver": "^2.41.0",
+    "selenium-webdriver": "^4.0.0-alpha.1"
+  }
+}
